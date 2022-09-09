@@ -1,10 +1,10 @@
-# Detect new code injection method in Microsoft Office CVE-2022-30190
+# Block Creation of File by Name
 
 ## Author
 Elad Levi
 
 ## Description
-A recent maldoc contained a novel way of downloading and injecting code using the msdt.exe tool to execute PowerShell and download malicious code #CVE-2022-30190
+Just an example to showcase usage of expert rules
 
 ## Rule Class 
 Files
