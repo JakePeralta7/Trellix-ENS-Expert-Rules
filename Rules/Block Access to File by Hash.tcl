@@ -7,7 +7,7 @@ Rule {
 	Target {
 		Match FILE {
 			Include -access "READ WRITE RENAME"
-			Include SHA2_256 {-v "HASH"}
+			Include SHA2_256 {-v "HASH" "ANOTHER_HASH"}
 		}
 	}
 }
