@@ -12,6 +12,10 @@ Files
 ## Rule TCL
 ```tcl
 Rule {
+
+	lappend listOfHashes "HASH"
+	lappend listOfHashes "ANOTHER_HASH"
+
 	Initiator {
 		Match PROCESS {
 			Include OBJECT_NAME {-v "*"}
@@ -20,7 +24,7 @@ Rule {
 	Target {
 		Match FILE {
 			Include -access "READ WRITE RENAME"
-			Include SHA2_256 {-v "HASH" "ANOTHER_HASH"}
+			Include SHA2_256 {-l $listOfHashes}
 		}
 	}
 }
