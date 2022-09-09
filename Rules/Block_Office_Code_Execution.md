@@ -5,6 +5,7 @@ Trellix Threat Labs - CB
 
 ## Description
 A recent maldoc contained a novel way of downloading and injecting code using the msdt.exe tool to execute PowerShell and download malicious code #CVE-2022-30190
+
 ## Rule Class 
 Processes
 
