@@ -9,12 +9,18 @@ why?
 ## AACInfo Tool
 Location: "C:\Program Files\Common Files\McAfee\SystemCore\aacinfo.exe"
 
-aacinfo report - command that can be used to get events in real time
+### Report
+Command that can be used to get events in real time
+```
+aacinfo report
+```
 
-aacinfo query - command used to get all AAC rules (we can reverse engineer McAfee's rules with this tool)
+### Query
+Command used to get all AAC rules (we can reverse engineer McAfee's rules with this tool)
 ```
 aacinfo query > outputFile.xml
 ```
+The name of the expert rule is kept in the output file, so we can search by it
 
 Help: aacinfo /?
 
