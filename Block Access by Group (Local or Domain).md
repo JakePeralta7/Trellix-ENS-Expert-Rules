@@ -12,3 +12,23 @@ We have the Match_Type GROUP_SID (Group Security Identifier)
 (Get-ADGroup "GROUP_NAME").SID.Value
 ```
 - The group SID of local admin is "S-1-16-12288" and "S-1-16-16384"
+
+## Example
+Let's prevent usage of cmd with admin privelges (obviously this rule is just for demonstration)
+```tcl
+Rule {
+
+    lappend listOfGroups "S-1-16-12288"
+    lappend listOfGroups "S-1-16-16384"
+
+    Process {
+        Include OBJECT_NAME { -v "**" }
+        Include GROUP_SID {
+            -l $listOfGroups
+        }
+    }
+	Target {
+		Include OBJECT_NAME { -v "cmd.exe" }
+	}
+}
+```
