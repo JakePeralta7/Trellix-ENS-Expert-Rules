@@ -1,5 +1,20 @@
 # Cheatsheet
 
+## McAfee Endpoint Security Console
+This is where we are going to write the expert rules
+why?
+- we can check the rule
+- impact is low because it's local (unlike ePO)
+
+## AACInfo Tool
+Location: "C:\Program Files\Common Files\McAfee\SystemCore\aacinfo.exe"
+
+aacinfo report - command that can be used to get events in real time
+
+aacinfo query - command used to get all AAC rules (we can reverse engineer McAfee's rules with this tool)
+
+Help: aacinfo /?
+
 ## AAC Structure
 - Initiator, the object commiting the action (can Match only PROCESS/THREAD)
 - Target, the object the action comitted on (can Match all objects)
