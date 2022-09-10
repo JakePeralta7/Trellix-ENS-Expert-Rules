@@ -15,7 +15,7 @@ We have the Match_Type GROUP_SID (Group Security Identifier)
 - The group SID of BUILTIN\Administrators is "S-1-5-32-544"
 
 ## Example
-Let's prevent usage of cmd with admin privelges (obviously this rule is just for demonstration)
+Let's prevent usage of cmd with local admin privelges (obviously this rule is just for demonstration)
 ```tcl
 Rule {
 
