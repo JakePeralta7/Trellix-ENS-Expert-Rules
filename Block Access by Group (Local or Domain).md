@@ -21,14 +21,18 @@ Rule {
     lappend listOfGroups "S-1-16-12288"
     lappend listOfGroups "S-1-16-16384"
 
-    Process {
-        Include OBJECT_NAME { -v "**" }
-        Include GROUP_SID {
-            -l $listOfGroups
+    Initiator {
+        Match PROCESS {
+            Include OBJECT_NAME { -v "**" }
+            Include GROUP_SID {
+                -l $listOfGroups
+            }
         }
     }
-	Target {
-		Include OBJECT_NAME { -v "cmd.exe" }
-	}
+    Target {
+        Match PROCESS {
+            Include OBJECT_NAME { -v "cmd.exe" }
+        }
+    }
 }
 ```
