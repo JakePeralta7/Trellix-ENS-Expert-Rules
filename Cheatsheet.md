@@ -71,6 +71,21 @@ iUtil cvt2args $<string> ;# Converts to args (splits spaces, keeps "" as one arg
 string trim $<var> <chars> ;# Removes the chosen chars from the given var
 ```
 
+## Conditions and Loops
+```tlc
+if {<condition>} {
+	<whatever>
+}
+else {
+	<something>
+}
+```
+```tlc
+for {set x <start_value>} {condition} {<changing x>} {
+	<something>
+}
+```
+
 ## Notes
 TCL Version is 7.6
 ### TCL Special Chars
