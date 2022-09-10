@@ -23,7 +23,9 @@ aacinfo query > outputFile.xml
 The name of the expert rule is kept in the output file, so we can search by it
 
 ### Help
-`aacinfo /?`
+```
+aacinfo /?
+```
 
 ## AAC Structure
 - Initiator, the object commiting the action (can Match only PROCESS/THREAD)
