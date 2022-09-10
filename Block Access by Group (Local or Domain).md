@@ -6,4 +6,4 @@ ENS Expert Rules allows us to write rules that takes into account factors such a
 - Is he running with local admin rights?
 
 ## How can we use it?
-We have the MATCH_TYPE GROUP_SID
+We have the MATCH_TYPE GROUP_SID (Group Security Identifier)
