@@ -55,12 +55,21 @@ iSystem <var>
 ```tlc
 iTerminate "Some Message" ;# Stops the rule from applying on current computer
 ```
+```tlc
 iReg value <KEY> <VALUE>
+```
+```tlc
 llength $<object> - returns the length of the object
+```
+```tlc
 lindex $<list_obj> $<index>
+```
+```tlc
 iUtil cvt2args $<string> ;# Converts to args (splits spaces, keeps "" as one arg)
-
+```
+```tlc
 string trim $<var> <chars> ;# Removes the chosen chars from the given var
+```
 
 ## Notes
 TCL Version is 7.6
