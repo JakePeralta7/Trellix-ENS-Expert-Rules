@@ -13,7 +13,7 @@ aacinfo report - command that can be used to get events in real time
 
 aacinfo query - command used to get all AAC rules (we can reverse engineer McAfee's rules with this tool)
 ```
-aacinfo query > some_xml_file.xml
+aacinfo query > outputFile.xml
 ```
 
 Help: aacinfo /?
