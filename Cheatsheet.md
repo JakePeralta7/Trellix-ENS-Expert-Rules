@@ -33,13 +33,13 @@ In/Exclude MatchType {
 }
 ```
 
--v		value
+-v		"value"
 
--l		list
+-l		$list
 
--pfx	prefix
+-pfx	"prefix"
 
--sfx	suffix
+-sfx	"suffix"
 
 ## Include/Exclude AggregateMatch
 we can use this function to join a group of in/exclude
