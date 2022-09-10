@@ -22,7 +22,13 @@ lappend <list_name> <value>
 -l $<list_name>
 ```
 
-> We can use -v <value> and -l $<list> together
+We can use -v <value> and -l $<list> together
+```tlc
+In/Exclude MatchType {
+    -l $someList
+    -v "someValue"
+}
+```
 
 ## Include/Exclude AggregateMatch
 we can use this function to join a group of in/exclude
