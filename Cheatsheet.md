@@ -17,9 +17,10 @@ In/Exclude ACCESS_MASK {-v "XXXX" "YYYY" "ZZZZ"}        =   In/Exclude -access "
 set <variable_name> <value>
 ```
 
+```tlc
 lappend <list_name> <value>
-
 -l $<list_name>
+```
 
 > We can use -v <value> and -l $<list> together
 
