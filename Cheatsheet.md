@@ -47,4 +47,4 @@ we can use this function to join a group of in/exclude
 ## Notes
 TCL Version is 7.6
 ### TCL Special Chars
-", $, [, ], \, _
+", $, [, ], \\, _
