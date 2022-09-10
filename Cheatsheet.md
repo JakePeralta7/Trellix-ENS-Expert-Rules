@@ -15,10 +15,12 @@ In/Exclude ACCESS_MASK {-v "XXXX" "YYYY" "ZZZZ"}        =   In/Exclude -access "
 ## Using Variables and Lists in TLC
 set <variable_name> <value>
 
+
 lappend <list_name> <value>
+
 -l $<list_name>
 
-We can use -v <value> and -l $<list> together
+> We can use -v <value> and -l $<list> together
 
 ## Include/Exclude AggregateMatch
 we can use this function to join a group of in/exclude
