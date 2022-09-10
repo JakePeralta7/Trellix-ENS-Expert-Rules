@@ -30,6 +30,14 @@ In/Exclude MatchType {
 }
 ```
 
+-v		value
+
+-l		list
+
+-pfx	prefix
+
+-sfx	suffix
+
 ## Include/Exclude AggregateMatch
 we can use this function to join a group of in/exclude
 
