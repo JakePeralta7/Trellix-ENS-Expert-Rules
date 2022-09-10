@@ -12,6 +12,7 @@ We have the Match_Type GROUP_SID (Group Security Identifier)
 (Get-ADGroup "GROUP_NAME").SID.Value
 ```
 - The group SID of local admin is "S-1-16-12288" and "S-1-16-16384"
+- The group SID of BUILTIN\Administrators is "S-1-5-32-544"
 
 ## Example
 Let's prevent usage of cmd with admin privelges (obviously this rule is just for demonstration)
