@@ -7,7 +7,8 @@ why?
 - impact is low because it's local (unlike ePO)
 
 ## AACInfo Tool
-Location: "C:\Program Files\Common Files\McAfee\SystemCore\aacinfo.exe"
+### Location
+"C:\Program Files\Common Files\McAfee\SystemCore\aacinfo.exe"
 
 ### Report
 Command that can be used to get events in real time
