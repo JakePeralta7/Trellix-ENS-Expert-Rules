@@ -1,5 +1,11 @@
 # Cheatsheet
 
+## AAC Structure
+- Initiator, the object commiting the action (can Match only PROCESS/THREAD)
+- Target, the object the action comitted on (can Match all objects)
+
+The rules are Include/Exclude inside the Match section
+
 ## Shortcuts
 In/Exclude ACCESS_MASK {-v "XXXX" "YYYY" "ZZZZ"}        =   In/Exclude -access "XXXX YYYY ZZZZ"
 
@@ -73,7 +79,7 @@ string trim $<var> <chars> ;# Removes the chosen chars from the given var
 
 ## Conditions and Loops
 ```tlc
-if {<condition>} {
+if {$<var_name> == "someValue"} {
 	<whatever>
 }
 else {
