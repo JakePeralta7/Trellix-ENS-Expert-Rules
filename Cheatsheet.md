@@ -13,8 +13,9 @@ In/Exclude ACCESS_MASK {-v "XXXX" "YYYY" "ZZZZ"}        =   In/Exclude -access "
 \ - an escape char for TCL
 
 ## Using Variables and Lists in TLC
+```tlc
 set <variable_name> <value>
-
+```
 
 lappend <list_name> <value>
 
