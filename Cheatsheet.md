@@ -44,6 +44,24 @@ In/Exclude MatchType {
 ## Include/Exclude AggregateMatch
 we can use this function to join a group of in/exclude
 
+## Commands
+```tlc
+iEnv <ENV_VAR>
+```
+```tlc
+iSystem <var>
+	examples: os_arch (640 = 64-bit, 320 = 32-bit)
+```
+```tlc
+iTerminate "Some Message" ;# Stops the rule from applying on current computer
+```
+iReg value <KEY> <VALUE>
+llength $<object> - returns the length of the object
+lindex $<list_obj> $<index>
+iUtil cvt2args $<string> ;# Converts to args (splits spaces, keeps "" as one arg)
+
+string trim $<var> <chars> ;# Removes the chosen chars from the given var
+
 ## Notes
 TCL Version is 7.6
 ### TCL Special Chars
