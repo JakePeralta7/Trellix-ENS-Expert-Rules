@@ -4,7 +4,9 @@
 Elad Levi
 
 ## Description
-A recent maldoc contained a novel way of downloading and injecting code using the msdt.exe tool to execute PowerShell and download malicious code #CVE-2022-30190
+The command and control (C2) Cobalt Strike often delivers beacon payloads in the form of DLLs. We reliably observe Cobalt Strike leveraging Rundll32 to call the StartW export function and load DLLs from the command line.
+
+https://redcanary.com/threat-detection-report/techniques/rundll32/
 
 ## Rule Class 
 Processes
