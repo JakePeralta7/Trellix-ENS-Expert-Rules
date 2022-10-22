@@ -2,8 +2,8 @@
 In this repository I'm going to write expert rules I've created and researched in order to build better detection/prevention
 
 ## [Tutorials](/Tutorials/)
-- [Block Access by Group (Local or Domain)](/Tutorials/Block%20Access%20by%20Group%20(Local%20or%20Domain).md)
-- [Block Execution by Command Line](/Tutorials/Block%20Execution%20by%20Command%20Line.md)
+- [Block Access by Group (Local or Domain)](./Tutorials/Block%20Access%20by%20Group%20(Local%20or%20Domain).md)
+- [Block Execution by Command Line](./Tutorials/Block%20Execution%20by%20Command%20Line.md)
 
 ## [Rules](/Rules/)
 
