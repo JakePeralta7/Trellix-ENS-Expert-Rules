@@ -13,8 +13,12 @@ Processes
 ```tcl
 The original rule: 
 Rule {
-    Process {
-        Include OBJECT_NAME { -v "MsMpEng.exe" }
+    Initiator {
+		Match PROCESS {
+			Include OBJECT_NAME {
+				-v "MsMpEng.exe"
+			}
+		}
     }
 	Target {
 		Match FILE {
