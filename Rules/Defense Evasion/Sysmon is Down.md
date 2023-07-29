@@ -7,19 +7,18 @@ Rule {
 			Include OBJECT_NAME {
 				-v "**"
 			}
-			Exclude VTP_PRIVILEGES -type BITMASK {
-				-v 0x8
+			Include PROCESS_CMD_LINE {
+				-v "C:\\Windows\\Sysmon64.exe"
 			}
 		}
-	}
+    }
 	Target {
 		Match PROCESS {
 			Include OBJECT_NAME {
 				-v "Sysmon.exe"
 				-v "Sysmon64.exe"
 			} 
-			Include -access "DELETE TERMINATING"
-			Exclude -access "CREATE"
+			Include -access "TERMINATING"
 		}
 	}
 }
