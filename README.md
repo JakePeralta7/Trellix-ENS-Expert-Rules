@@ -1,4 +1,4 @@
-# McAfee ENS Expert Rules
+# Trellix ENS Expert Rules
 In this repository I'm going to write expert rules I've created and researched in order to build better detection/prevention
 
 ## [Tutorials](./Tutorials/)
